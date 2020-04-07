@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>
+            Сведения о пользователе
+        </legend>
+            <form name= "usesrs">
+                <p>
+                    Ваше имя:
+                    <input type="text" name="userName" size="30">
+                </p>
+                <p>
+                    Ваш возраст
+                    <input type="text" name="userAge" list="age">
+                    <datalist id="age">
+                        <option value="1-10 лет">
+                        <option value="11-16 лет">
+                        <option value="17-22 лет">
+                        <option value="23-35 лет">
+                        <option value="35-50 лет">
+                        <option value="Старше 50 лет">
+                    </datalist>
+                </p>
+                <p>
+                    Какую операционную систему используете?
+                    <select name="os">
+                        <option value="1"> windows
+                        <option value="2"> linux
+                        <option value="3"> MacOC
+                        <option value="4"> Другое 
+                    </select>
+                </p>
+                <p>
+                    Какие браузеры используете?<br><br>
+                    <label><input type="checkbox" name="me" value="1" checked> Microsoft Edge </label><br>
+                    <label><input type="checkbox" name="gh" value="2"> Google Chome </label><br>
+                    <label><input type="checkbox" name="mf" value="3"> Mozilla </label><br>
+                    <label><input type="checkbox" name="op" value="4"> Opers </label><br>
+                    <label><input type="checkbox" name="dr" value="5"> Другое </label><br>
+                </p>
+                <p>
+                    Связана ли ваша деятельность с компьютором? <br>
+                    <label><input type="radio" name="comp" value="1"> Да</label><br>
+                    <label><input type="radio" name="comp" value="2"> Нет</label>
+                </p>
+                <p>
+                    Дополнительная информация <br>
+                    <textarea name="inform"cols="30" rows="6"></textarea>
+                </p>
+                <p>
+                <input type="submit" value="отправить">
+                <input type="reset" value="очистить">
+                </p>
+            </form>
+     </fieldset>
+</body>
+</html>
