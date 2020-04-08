@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>
+            Регистрационная форма пользователя
+    </legend> 
+        <p>
+            Имя:
+        <input type="text" name="userName" size="30">
+        </p>
+        <p>
+            Укажите возраст:
+            <input type="text" name="userAge" list="age">
+            <datalist id="age">
+                <option value="10-15 лет">
+                <option value="15-20 лет">
+                <option value="20-30 лет">
+                <option value="30-40 лет">
+                <option value="Старше 40 лет">
+            </datalist>
+        </p>
+        <p>
+            Укажите пол:
+        <input name="m" type="radio" value="1">мужской
+        <input name="m" type="radio" value="2">женский
+        </p>
+        <p>
+            Страна проживания:
+            <select name="st">
+                <option value="1"> Беларусь
+                <option value="2"> Российская Федерация
+                <option value="3"> Другое государство
+            </select>
+        </p>
+        <p>
+            Владение языками:
+            <label><input type="checkbox" name="r" value="1">Русский</label>
+            <label><input type="checkbox" name="b" value="2">Белорусский</label>
+            <label><input type="checkbox" name="a" value="3">Английский</label>
+        </p>
+        <p>
+            Фото профиля:
+            <input type="file" name="photo" multiple accept="image/*,image/jpeg">
+        </p>
+        <p>   
+            Введите логин: <input name="login" required><br><br>
+            Введите пароль:
+            <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+        </p>
+        <p>
+        <input type="reset" value="Сброс">
+        <input type="submit" value="Отправить">
+        </p>
+</fieldset>
+        <p>
+            Оставить сообщение: <br>
+            <textarea name="inform"cols="40" rows="7"></textarea><br>
+            <input type="submit" value="Отправить">
+        </p>
+</body>
+</html>
