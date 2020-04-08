@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Запись на курсы</h3>
+<hr>
+    <form name= "usesrs">
+        <p>
+            Имя: <br>
+            <input type="text" name="userName" size="30" placeholder="Алексей">
+        </p>
+        <p>
+            Язык программирования: <br>
+                <label><input type="radio" name="comp" value="1">C++</label><br>
+                <label><input type="radio"checked name="comp" value="2">PHP</label><br>
+                <label><input type="radio" name="comp" value="3">Python</label><br>
+        </p>
+        <p>
+            Дополнительная информация: <br>
+                <textarea name="inform"cols="30" rows="6"placeholder="Есть опыт программирования на С++"></textarea>
+        </p>
+        <p>
+            Секретное слово:<br>
+                <input type="password" maxlength="15" size="20" name="password">
+        </p>
+        <p>
+                <input type="submit" value="Отправить">
+                <input type="reset" value="Очистить">
+        </p>
+            </form>
+<fieldset>
+    <legend>
+        Параметры автомобиля
+    </legend> 
+    <p>
+        Марка автомобиля
+        <input type="text" name="userName" size="30">
+    </p>
+    <p>
+        Объем двиготеля, см<sup>3</sup>
+        <input type="text"size="30" placeholder="1900">
+    </p>
+    <p>
+        Область
+        <select name="select" size="1">
+            <option selected value="s1">Брестская</option>
+            <option value="s2">Витебская</option>
+            <option value="s3">Могилевская</option>
+            <option value="s4">Гомельская</option>
+            <option value="s5">Гродненская</option>
+            <option value="s6">Минская</option>
+        </select>
+    </p>
+    <p>
+        Тип КПП<br>
+            <input name="kpp" type="radio" value="avto">Автомат<br>
+            <input name="kpp" type="radio" value="mex">Механика
+    </p>
+    <p>
+        Двиготель <br>
+            <input type="checkbox" name="a" value="1">Электро<br>
+            <input type="checkbox" name="a" value="2">Дизель<br>
+            <input type="checkbox" name="a" value="3">Бензин<br>
+            <input type="checkbox" name="a" value="4">Пропан-бутан<br>
+            <input type="checkbox" name="a" value="5">Метан<br>
+    </p>
+    <p>
+        Описание <br>
+            <textarea name="inform"cols="30" rows="6"></textarea>
+    </p>
+    <p>
+        <input type="submit" value="Отправить">
+        <input type="reset" value="Очистить">
+    </p>
+</fieldset>
+</body>
+</html>
