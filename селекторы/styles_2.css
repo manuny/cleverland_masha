@@ -1,9 +1,13 @@
-#blue {background-color:blue;
-        color: white;
-    }
-#violet {background-color: violet;
+#blue {
+    background-color:blue;
+    color: white;
 }
-.red {background-color: red;
+#violet {
+    background-color: violet;
 }
-.skyblue {background-color: skyblue;
+.red {
+    background-color: red;
+}
+.skyblue {
+    background-color: skyblue;
 }
