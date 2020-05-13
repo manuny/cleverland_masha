@@ -1,0 +1,27 @@
+div {
+    width: 500px;
+    padding: 7px;
+    font-size: 20px;
+    white-space: normal;
+}
+div p:first-child {
+    font-size: 40px;
+    color: #02d102;
+    text-align: center;
+    font-weight: bolder;
+}
+div p:nth-child(2) {
+    font-size: 30px;
+    color: #e46a07;
+    text-align: center;
+    font-weight: bolder;
+}
+.i {
+    font-style: italic;
+    text-decoration: underline solid;
+    color: #1d1b1b;
+}
+.b {
+    font-weight: bolder;
+    text-decoration: underline dotted #c2c209;
+}
