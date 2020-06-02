@@ -1,0 +1,36 @@
+* {
+	margin: 40px;
+}
+
+.div {
+  height: 40px;
+  width: 800px;
+  background: #e0f2f5;
+  padding: 5px;
+}
+
+.span1 {
+  color: #3838b3;
+  font-weight: bold;
+}
+
+.span2 {
+  color: #10a010;
+}
+
+.div::before {
+  
+  content: '🔒';
+  float: left;
+  color: #006400;
+  position: relative;
+  top: 6px;
+}
+
+.div::after {
+  content: "⮿";
+  float: right;
+  color: #006400;
+  position: relative;
+  bottom: 10px;
+}
