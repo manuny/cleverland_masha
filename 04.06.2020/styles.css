@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+header {
+    display: flex;
+    width: 100%;
+    max-width: 1600px;
+    height: 200px;
+    background-color: #003d3d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    justify-content: flex-end;
+}
+#logo {
+    width: 170px;
+    height: 170px;
+    margin: 10px 20px 10px 20px;
+    background: #ffa500;
+    text-align: center;
+}
+nav {
+    display: flex;
+    width: 100%;
+    max-width: 1600px;
+    height: 50px;
+    background-color: #021144;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    justify-content: center;
+}
+.article1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1600px;
+    height: 100px;
+    margin-top: 10px;
+    justify-content: space-between;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+#left1, #right1 {
+    width: 650px;
+    max-width: 1600px;
+    background-color: #0ae7e7;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+.nov {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1600px;
+    height: 100px;
+    margin-top: 10px;
+    justify-content: space-between;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+.left-panel {
+    width: 300px;
+    background-color: #531353;
+    color: #ffffff;
+    font-size: 30px;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+.right-panel {
+    width: 300px;
+    background-color: #531353;
+    color: #ffffff;
+    font-size: 30px;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+article {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1600px;
+    height: 100px;
+    margin-top: 10px;
+    justify-content: space-between;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+.article {
+    display: flex;
+    width: 400px;
+    max-width: 1600px;
+    background-color: #0ae7e7;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    max-width: 1600px;
+    min-height: 50px;
+    color: #FFF;
+    font-size: 16px;
+    flex: 0 0 auto;
+    background: #564f96;
+}
+@media (max-width: 600px) {
+    .nov {
+        flex-direction: column;
+    }
+}
