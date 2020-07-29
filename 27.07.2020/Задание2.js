@@ -1,0 +1,10 @@
+"use striсt";
+let red = document.getElementById ('first');
+red.style.backgroundColor = 'red';
+let blue = document.getElementById ('second');
+blue.style.backgroundColor = 'blue';
+let yellow = document.getElementsByClassName ('yellow');
+yellow[0].style.backgroundColor = 'yellow';
+yellow[yellow.length - 1].style.backgroundColor = 'yellow';
+let green = document.getElementsByTagName('div');
+green[3].style.backgroundColor = 'green';
